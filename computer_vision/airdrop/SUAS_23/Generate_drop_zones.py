@@ -109,8 +109,6 @@ def check_file_paths(file_path, image_output_path, data_output_path):
         os.makedirs(data_output_path)
 
 if __name__ == "__main__":
-    
-    
     current_file_path = os.path.abspath(__file__)
     folder_dir = os.path.join(os.path.dirname(current_file_path), '.data/training_images')
     background_size = (4000, 3000)

@@ -101,7 +101,7 @@ def generate_img(shape, image_color, symbol, symbol_color):
 
     gray = (128, 128, 128)
     # ('RGB', (100, 100), selected_color)
-    img = Image.new('RGB', (img_h, img_w), gray)
+    img = Image.new('RGB', (img_h, img_w), (255, 255, 255))
 
     draw = ImageDraw.Draw(img)
     center = (0.5*img_w, 0.5*img_h)
