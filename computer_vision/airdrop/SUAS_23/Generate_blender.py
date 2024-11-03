@@ -4,10 +4,10 @@ import bpy
 
 images_to_generate = 3
 
-file_path = "/Users/jzpan/Coding/python/SUAS-2023/computer_vision/airdrop/SUAS_23/"
+file_path = "/Users/jzpan/Coding/python/SUAS-2023/computer_vision/airdrop/SUAS_23/.data/"
 dropzone_dims = (152.4, 24.384) # 500 x 80 ft, in meters
-data_output_path = file_path + "metadata/"
-image_output_path = file_path + "images/"
+data_output_path = file_path + "dropzone_metadata/"
+image_output_path = file_path + "dropzone_images/"
 filename = "drop_zone"
 suffix = ""
 
