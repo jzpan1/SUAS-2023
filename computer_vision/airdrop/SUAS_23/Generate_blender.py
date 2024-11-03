@@ -11,8 +11,6 @@ image_output_path = file_path + "images/"
 filename = "drop_zone"
 suffix = ""
 
-
-
 def randomPosition():
     x = random.random() * ((dropzone_dims[0] - 4) + 2)
     y = random.random() * ((dropzone_dims[1] - 4) + 2)
@@ -24,7 +22,7 @@ def randomize_light():
     x, y = randomPosition()
     light = bpy.data.lights["Light"]
     light.angle = random.random()*3.14159
-    light.energy = 3 + random.random()*10
+    light.energy = 2 + random.random()*7
     
 def place():
     placed_positions = []
